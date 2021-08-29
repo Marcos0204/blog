@@ -36,5 +36,6 @@ header .header-icons-container .icons {
     align-items: center;
     justify-content: space-between;
     margin-right: 50px;
+    justify-self: flex-end;
 }
 }
