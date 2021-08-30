@@ -8,6 +8,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    font: 700 30px "Roboto Mono", monospace;
 }
 
 a {
@@ -84,6 +85,7 @@ nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
     font-weight: bold;
+    font-size: 22px;
 }
 
 /**** Styles-main*****/
@@ -113,5 +115,17 @@ nav .profile-link a {
     letter-spacing: 10px;
     color: #fff;
     text-align: center;
-    font: 700 30px "Roboto Mono", monospace;
+}
+
+.home-main-button {
+    width: 110px;
+    height: 50px;
+    background: #47cfac;
+    display: grid;
+    align-items: center;
+}
+
+.home-main-button a {
+    font-weight: 700;
+    font-size: 18px;
 }
