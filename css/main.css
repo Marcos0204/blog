@@ -1,5 +1,7 @@
 @import url(‘https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap’);
 
+
+
 body {
     margin: 0;
     padding: 0;
@@ -176,4 +178,17 @@ nav .profile-link a {
     border-bottom: 1px solid #e6e9ed;
     padding-bottom: 20px;
     text-align: center;
+}
+
+.blogs-button {
+    background-color: #47cfac;
+    color: #fff;
+    padding: 10px  15px;
+    border-radius: .5rem;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.blogs-button:hover {
+    background-color: #168c6d;
+    font-size: 17px;
 }
