@@ -1,14 +1,24 @@
 @import url(‘https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap’);
 
+
+
 body {
     margin: 0;
     padding: 0;
+    
+    font: 700 30px "Roboto Mono", monospace;
+}
+
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+}
+.home-body {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    font: 700 30px "Roboto Mono", monospace;
 }
 
 a {
@@ -128,4 +138,99 @@ nav .profile-link a {
 .home-main-button a {
     font-weight: 700;
     font-size: 18px;
+}
+
+/***********Blogs****************/
+
+.blogs-main {
+    display: grid;
+}
+
+.blogs-news-container {
+    background-color: #e6e9ed;
+    padding: 0px 50px ;
+}
+
+.blogs-main-news {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-news-img-contanier {
+    grid-column: 1;
+}
+
+.blogs-news-img-contanier img {
+    width: 85%;
+}
+
+
+.blogs-news-info-container {
+    grid-column: 2;
+}
+
+.blogs-news-info-container p {
+    margin-bottom: 35px;
+}
+
+.blogs-post-container {
+    padding: 0px 50px 40px;
+}
+
+.blogs-post-container h3 {
+    border-bottom: 1px solid #e6e9ed;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blogs-button {
+    background-color: #47cfac;
+    color: #fff;
+    padding: 10px  15px;
+    border-radius: .5rem;
+    
+    font-size: 15px;
+}
+.blogs-button:hover {
+    background-color: #168c6d;
+    font-size: 17px;
+}
+
+.blogs-post-container div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.blogs-post-container .post-container {
+    
+    padding-left: 10px;
+    flex-basis: calc(33% - 1rem);
+    margin-bottom: 50px;
+}
+
+.blogs-post-container .post-container p {
+    margin-bottom: 35px;
+}
+
+.blogs-post-container .post-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    width: 100%;
+    border-top: 1.5rem solid #47cfac;
+    background-color:#2b2a2a;
+    
+    text-align: center;
+    
+
+}
+footer p {
+    margin: 0px;
+    padding: 16px 0px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
 }
