@@ -168,6 +168,7 @@ nav .profile-link a {
 
 .blogs-news-info-container {
     grid-column: 2;
+    margin-bottom: 10px;
 }
 
 .blogs-news-info-container p {
