@@ -9,6 +9,10 @@ body {
     font: 700 30px "Roboto Mono", monospace;
 }
 
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+}
 .home-body {
     position: fixed;
     top: 0;
@@ -185,7 +189,7 @@ nav .profile-link a {
     color: #fff;
     padding: 10px  15px;
     border-radius: .5rem;
-    margin: 10px 0px;
+    
     font-size: 15px;
 }
 .blogs-button:hover {
