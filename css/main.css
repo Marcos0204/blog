@@ -327,3 +327,20 @@ footer p {
     background-color: #e6e9ed;
     margin-bottom: 50px;
 }
+.profile-container{
+    display: flex;
+    justify-content: space-between
+}
+.profile-container div {
+    flex-basis: 45%;
+}
+
+.profile-main-container img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    margin-right: 30px;
+    border-radius: 30%;
+    box-shadow: -7px 7px 14px -1px rgba(0,0,0,0.57);
+
+}
