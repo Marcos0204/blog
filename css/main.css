@@ -344,3 +344,26 @@ footer p {
     box-shadow: -7px 7px 14px -1px rgba(0,0,0,0.57);
 
 }
+
+.profile-main-proyects {
+    padding: 0px 50px 40px;
+}
+
+.profile-main-proyects h3 {
+    border-bottom: 1px solid #e6e9ed;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.proyects-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.proyect-container {
+    padding: 0 8px;
+}
+
+.proyect-container h4 {
+    text-align: center;
+}
