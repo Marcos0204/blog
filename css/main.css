@@ -320,3 +320,10 @@ footer p {
 .contact-main-container img {
     width: 100px;
 }
+/***********profile****************/
+
+.profile-main-container {
+    padding: 70px 40px;
+    background-color: #e6e9ed;
+    margin-bottom: 50px;
+}
